@@ -24,14 +24,13 @@ function Navbar() {
         <a href="" className='p-2'>Pricing</a>
         <a href="" className='p-2'>Docs</a>
         <a href="" className='p-2'>Blog</a>
-        
-
         </div>
-        
-
+      </div>
+      <div className='flex gap-2  items-center'>
+      <Button  className='bg-green-700 h-8 text-xs border border-green-500 bg-opacity-80 text-white '>Dashboard</Button>
+      <ModeToggle ></ModeToggle>
       </div>
       
-      <ModeToggle></ModeToggle>
     </nav>
     </div>
   )

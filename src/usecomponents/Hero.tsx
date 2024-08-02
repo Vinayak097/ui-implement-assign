@@ -23,7 +23,7 @@ function Hero() {
             Authentication, instant APIs, Edge <br></br>Functions, Realtime subscriptions, Storage, and Vector embeddings.
           </p>
           <div>
-          <Button className="bg-green-500 text-black">Start your project</Button>
+          <Button className="bg-green-600 bg-opacity-80 border border-green-500 text-white">Start your project</Button>
           <Button variant="outline" className="ml-4">
             Documentation
           </Button>
