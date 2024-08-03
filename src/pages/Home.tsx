@@ -11,7 +11,9 @@ import { LuMousePointer2 } from 'react-icons/lu';
 import databaselogo from '../assets/databaselogo.png'
 import { GoDatabase } from 'react-icons/go';
 import { PiVectorThree } from 'react-icons/pi';
-
+import Joincomunity from '../usecomponents/Joincomunity';
+import Fidbackcard from '../usecomponents/Fidbackcard';
+import Footer from '../usecomponents/Footer';
 function Home() {
   return (
     <div>
@@ -67,8 +69,17 @@ function Home() {
               />
             </div>
           </section>
+          <Joincomunity></Joincomunity>
+          <div>
+            <Fidbackcard></Fidbackcard>
+          </div>
+          
         </div>
+        
       </main>
+      <div className='border-t'>
+            <Footer></Footer>
+          </div>
     </div>
   );
 }
