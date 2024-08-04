@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { RiNextjsFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
 import { SiNuxtdotjs } from "react-icons/si";
@@ -6,9 +6,9 @@ import { SiFlutter } from "react-icons/si";
 import { SiSvelte } from "react-icons/si";
 import { RiVuejsFill } from "react-icons/ri";
 import { BiMessageRounded } from "react-icons/bi";
-import { Button } from '../components/ui/button';
+
 import ButtonCustom from './ButtonCustom';
-import { IconBaseProps } from 'react-icons';
+
 function Joincomunity() {
   return (
     <div className='text-center pt-10 lg:p-28'>

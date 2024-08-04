@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Mozilla from '../assets/mozilla.svg';
 import OnePassword from '../assets/1password.svg';
 import PwC from '../assets/pwc.svg';

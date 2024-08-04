@@ -1,4 +1,4 @@
-import React from 'react';
+
 import DashboardLayout from '../usecomponents/DashboardLayout';
 import { Button } from '../components/ui/button';
 import { IoIosArrowForward } from "react-icons/io";
@@ -18,7 +18,7 @@ const Dashboard = () => {
         
         <div className="flex mt-5 gap-4 items-center">
         <button  className='bg-green-600 p-0 h-fit py-1 px-2 rounded-md text-white text-xs border-green-500 bg-opacity-80 border '>New project</button>
-          <Button variant="gost" className='h-fit py-1 px-2 border text-xs'>New organization</Button>
+          <Button  className='h-fit py-1 px-2 border text-xs'>New organization</Button>
         </div>
       </div>
       <div className="bg-dark-200  rounded-lg  border-dark-300">

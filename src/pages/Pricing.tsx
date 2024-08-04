@@ -1,4 +1,4 @@
-import React from 'react';
+
 import PricingCard from '../usecomponents/PricingCard';
 import Navbar from '../usecomponents/Navbar';
 import Footer from '../usecomponents/Footer';

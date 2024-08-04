@@ -1,7 +1,5 @@
 // src/components/Footer.js
 
-import React from 'react';
-import { Button } from '../components/ui/button';
 import { TbBrandSupabase } from 'react-icons/tb';
 import { FaGithub } from "react-icons/fa6";
 import { PiXLogo } from "react-icons/pi";

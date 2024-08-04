@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Button } from '../components/ui/button'
 import { useNavigate } from 'react-router-dom'
 function Hero() {
@@ -11,9 +11,9 @@ function Hero() {
             <Button variant="outline" className="mb-4 rounded-full">
             Launch Week 6
           </Button>
-          <Button variant="gost" className="text-green-700 mb-4 py-2 pl-4 pr-4 transition-all gap-2 hover:gap-4 hover:pr-2">
+          <button className="text-green-700 mb-4 py-2 pl-4 pr-4 transition-all gap-2 hover:gap-4 hover:pr-2">
             <span>Claim your seat</span> <span className=''>→</span>
-          </Button>
+          </button>
             </div>
           
           <h1 className="lg:text-7xl text-4xl md:text-5xl font-normal  mb-4 ">

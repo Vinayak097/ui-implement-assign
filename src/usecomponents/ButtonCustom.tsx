@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { IconType } from 'react-icons'
 function ButtonCustom({text,Icon}:{text:string,Icon?:IconType|undefined}) {
   return (

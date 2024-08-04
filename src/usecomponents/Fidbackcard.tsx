@@ -1,38 +1,13 @@
-import React from 'react'
 
 
-let username=[
-    "@varlenneto",
-    "@thatguy_tex",
-    "@damlakoksal",
-    "@kevcodez",
-    "@justinjunodev",
-    "@IxoyeDesign",
-    "@justinjunodev",
-    "@KenTheRogers"
-]
 import dp1 from '../../public/images/dp1.webp'
 import dp2 from '../../public/images/dp2.webp'
 import dp3 from '../../public/images/dp3.webp'
 import dp4 from '../../public/images/dp4.webp'
-import { Divide } from 'lucide-react'
-import ButtonCustom from './ButtonCustom'
+
 import { Button } from '../components/ui/button'
-let images={
-    "dp1":dp1,
-    "dp2":dp2,
-    dp3,
-    dp4
-};
-let texts=["",
-    "I've been using @supabase for two personal projects and it has been amazing being able to use the power of Postgres and don't have to worry about the backend",
-    "Contributing to open-source projects and seeing merged PRs gives enormous happiness! Special thanks to @supabase, for giving this opportunity by staying open-source and being junior-friendly✌🏼",
-    "Over the course of a few weeks, we migrated 125.000 users (email/pw, Gmail, Facebook, Apple logins) from Auth0 to @supabase and have now completed the migration. I'm just glad the migration is done 😅 Went well, besides a few edge cases (duplicate emails/linked accounts)",
-    "@supabase is just 🤯 Now I see why a lot of people love using it as a backend for their applications. I am really impressed with how easy it is to set up an Auth and then just code it together for the frontend. @IngoKpp now I see your joy with Supabase #coding #fullstackwebdev",
-    "Y'all @supabase + @nextjs is amazing! 🙌 Barely an hour into a proof-of-concept and already have most of the functionality in place. 🤯🤯🤯",
-    "Holy crap. @supabase is absolutely incredible. Most elegant backend as a service I've ever used. This is a dream.",
-    "Using @supabase I'm really pleased on the power of postgres (and sql in general). Despite being a bit dubious about the whole backend as a service thing I have to say I really don't miss anything. The whole experience feel very robust and secure."
-]
+
+
 let reviews=[{
     img:dp1,
     username:"@varlenneto",

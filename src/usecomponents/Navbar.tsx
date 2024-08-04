@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Button } from '../components/ui/button'
 import { ModeToggle } from '../components/mode-toggle'
 import { TbBrandSupabase } from "react-icons/tb";
@@ -6,7 +6,7 @@ import { MdMenu } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
 
 import '../App.css'
-import { Link } from 'react-router-dom';
+
 function Navbar() {
   const navigate=useNavigate();
   return (

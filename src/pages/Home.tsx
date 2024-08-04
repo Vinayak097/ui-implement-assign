@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Navbar from '../usecomponents/Navbar';
 import Hero from '../usecomponents/Hero';
 import CompanyLogos from '../usecomponents/CompanyLogos';
@@ -8,7 +8,7 @@ import { BsBrowserEdge } from 'react-icons/bs';
 import { SiWebauthn } from 'react-icons/si';
 import Featurecard from '../usecomponents/featureCards/Featurecards';
 import { LuMousePointer2 } from 'react-icons/lu';
-import databaselogo from '../assets/databaselogo.png'
+
 import { GoDatabase } from 'react-icons/go';
 import { PiVectorThree } from 'react-icons/pi';
 import Joincomunity from '../usecomponents/Joincomunity';
