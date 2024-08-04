@@ -1,3 +1,37 @@
+
+---to start run this project 
+note-- make sure your in the root directory 
+cmmands you need to run after cloning of the project 
+
+"npm install" 
+"npm run dev"
+
+go to  * localhost:5173 *  on your browser
+thats all --;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -31,12 +65,3 @@ export default {
 
 
 
----to start run this project 
-note-- make sure your in the root directory 
-cmmands you need to run after cloning of the project 
-
-"npm install" 
-"npm run dev"
-
-go to  * localhost:5173 *  on your browser
-thats all --;
