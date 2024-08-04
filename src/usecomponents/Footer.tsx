@@ -13,11 +13,8 @@ const Footer = () => {
   return (
     <footer className="  ">
       <div className="  ">
-        <div className="text-center flex flex-col items-center gap-6 p-16 mb-8">
-          <h1 className="text-2xl font-bold mb-2">Build in a weekend, <span className="text-green-500">scale to millions</span></h1>
-          <Button className= "w-fit bg-green-600 bg-opacity-80 border border-green-500 text-white">Start your project</Button>
-        </div>
-        <div className='bg-neutral-100'>
+        
+        <div className='bg-neutral-100 dark:bg-slate-900'>
         <div className=" p-10 flex justify-center rounded-md border-b w-full mb-8">
           <span>We protect your data. <a href="#" className="text-green-500">More on Security</a></span>
           <span>✔ SOC2 Type 2 Certified</span>
@@ -76,8 +73,8 @@ const Footer = () => {
               <li><a href="#" className="hover:underline">RSS</a></li>
             </ul>
           </div>
-          <div className='pb-2'>
-            <h2 className="text-lg font-semibold mb-4">Company</h2>
+          <div className='pb-16'>
+            <h2 className="text-lg font-semibold ">Company</h2>
             <ul>
               <li><a href="#" className="hover:underline">Blog</a></li>
               <li><a href="#" className="hover:underline">Customer Stories</a></li>
@@ -97,7 +94,7 @@ const Footer = () => {
           </div>
           </div>
         </div>
-        <div className="bg-neutral-100 border-t m-wl-xl text-center p-10">
+        <div className="bg-neutral-100 dark:bg-slate-900 border-t m-wl-xl text-center py-2 pb-10">
           <p>&copy; Supabase Inc</p>
         </div>
       </div>

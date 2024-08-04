@@ -34,13 +34,13 @@ const logos = [
 const CompanyLogos = () => {
   return (
     <div className=' lg:px-48 p-10 md:p-28'>
-    <div className="flex  justify-center items-center flex-wrap space-x-4 space-y-2 gap-6 dark:text-slate-900">
+    <div className="flex  justify-center items-center  flex-wrap space-x-4 space-y-2 gap-6 dark:text-slate-900">
       {logos.map((logo, index) => (
         <img
           key={index}
           src={logo.src}
           alt={logo.alt}
-          className="lg:h-5 h-3 md:h-4 "
+          className="lg:h-5 h-3 md:h-4"
         />
       ))}
       

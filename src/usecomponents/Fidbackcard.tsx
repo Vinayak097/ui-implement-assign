@@ -102,7 +102,7 @@ function Fidbackcard(){
         
     </div>
     <div className='z-10 text-center'>
-        <Button className='border  bg-white text-black dark:text-white hover:bg-gray-200 hover:dark:bg-slate-800'>Show More</Button>
+        <Button className='border dark:bg-slate-900 bg-white text-black dark:text-white hover:bg-gray-200 hover:dark:bg-slate-800'>Show More</Button>
     </div>
     </>
   )

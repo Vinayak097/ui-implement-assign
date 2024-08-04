@@ -1,7 +1,8 @@
 import React from 'react'
 import { Button } from '../components/ui/button'
-
+import { useNavigate } from 'react-router-dom'
 function Hero() {
+  const navigate=useNavigate();
   return (
     <div className=''>
          <main className="px-6 py-12 flex justify-center mt-20">
@@ -23,7 +24,7 @@ function Hero() {
             Authentication, instant APIs, Edge <br></br>Functions, Realtime subscriptions, Storage, and Vector embeddings.
           </p>
           <div>
-          <Button className="bg-green-600 bg-opacity-80 border border-green-500 text-white">Start your project</Button>
+          <Button onClick={()=>{navigate("/dashboard")}} className="bg-green-600 bg-opacity-80 border border-green-500 text-white">Start your project</Button>
           <Button variant="outline" className="ml-4">
             Documentation
           </Button>
